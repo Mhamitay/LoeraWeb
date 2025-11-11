@@ -9,7 +9,7 @@ import BehindTheShine from './components/BehindTheShine';
 import Gallery from './components/Gallery';
 import Testimonials from './components/Testimonials';
 import JoinFooter from './components/JoinFooter';
-
+// asdfjl
 const GoldenParticle: React.FC<{ style: React.CSSProperties }> = ({ style }) => (
   <div
     className="absolute rounded-full gold-bg opacity-50 animate-pulse"
