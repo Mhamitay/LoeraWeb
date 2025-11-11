@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
         loop
         muted
         playsInline
-        className={`absolute inset-0 w-full h-full object-contain transition-opacity duration-[3000ms] ease-in-out ${
+        className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-[3000ms] ease-in-out ${
           isLoaded ? 'opacity-50' : 'opacity-0'
         }`}
       >
