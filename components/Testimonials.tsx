@@ -14,7 +14,7 @@ const Testimonials: React.FC = () => {
   return (
     <section 
       className="w-full py-20 lg:py-40 relative bg-cover bg-center bg-fixed"
-      style={{ backgroundImage: "url('https://picsum.photos/seed/lorea-bokeh/1920/1080')" }} // Soft blurred gold bokeh
+      style={{ backgroundImage: "url('/images/backgrounds/testimonials.jpg')" }}
     >
       <div className="absolute inset-0 bg-black/80"></div>
       <div ref={ref} className="relative z-10 container mx-auto px-4 text-center">

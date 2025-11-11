@@ -6,7 +6,7 @@ const Philosophy: React.FC = () => {
   const [ref, isVisible] = useScrollTrigger<HTMLDivElement>();
 
   return (
-    <section className="min-h-screen w-full flex items-center justify-center relative py-20 lg:py-40 bg-fixed bg-cover bg-center" style={{ backgroundImage: "url('https://picsum.photos/seed/lorea-philosophy/1920/1080')" }}>
+    <section className="min-h-screen w-full flex items-center justify-center relative py-20 lg:py-40 bg-fixed bg-cover bg-center" style={{ backgroundImage: "url('/images/backgrounds/philosophy.jpg')" }}>
       {/* Parallax background is achieved with bg-fixed. A gold texture image would be used here. */}
       <div className="absolute inset-0 bg-black/70"></div>
       <div

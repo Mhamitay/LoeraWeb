@@ -23,7 +23,7 @@ const BehindTheShine: React.FC = () => {
                 className={`w-full h-full bg-cover bg-center transition-all duration-[2000ms] ease-out ${
                     isVisible ? 'scale-100 opacity-70' : 'scale-110 opacity-0'
                 }`}
-                style={{ backgroundImage: "url('https://picsum.photos/seed/lorea-shine/1080/1920')" }} // Slow-moving gold background
+                style={{ backgroundImage: "url('/images/backgrounds/shine.jpg')" }}
             ></div>
         </div>
       </div>

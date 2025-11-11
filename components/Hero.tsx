@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
       <div
         className="absolute inset-0 bg-cover bg-center transition-opacity duration-[3000ms] ease-in-out"
         style={{
-          backgroundImage: "url('https://picsum.photos/seed/lorea-hero/1920/1080')", // Macro of gold jewelry
+          backgroundImage: "url('/images/backgrounds/hero.jpg')",
           opacity: isLoaded ? 0.3 : 0,
         }}
       ></div>

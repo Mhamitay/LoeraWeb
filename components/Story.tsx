@@ -11,7 +11,7 @@ const Story: React.FC = () => {
         <div
           className="absolute inset-0 bg-cover bg-center opacity-20"
            style={{ 
-             backgroundImage: "url('https://picsum.photos/seed/lorea-story/1920/1080')", // Goldsmith hands polishing jewelry
+             backgroundImage: "url('/images/backgrounds/story.jpg')",
              transform: isVisible ? 'translateY(0)' : 'translateY(20%)',
              transition: 'transform 1.5s ease-out'
            }}
