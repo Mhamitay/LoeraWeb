@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
           isLoaded ? 'opacity-50' : 'opacity-0'
         }`}
       >
-        <source src="/images/backgrounds/hero1.mov" type="video/mov" />
+        <source src="/images/backgrounds/hero1.mp4" type="video/mp4" />
         <source src="/images/backgrounds/hero1.webm" type="video/webm" />
         {/* Fallback to image if video doesn't load */}
       </video>
