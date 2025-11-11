@@ -16,25 +16,13 @@ const Hero: React.FC = () => {
         loop
         muted
         playsInline
-        className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-[3000ms] ease-in-out ${
+        className={`absolute inset-0 w-full h-full object-contain transition-opacity duration-[3000ms] ease-in-out ${
           isLoaded ? 'opacity-50' : 'opacity-0'
         }`}
       >
         <source src="/images/backgrounds/hero1.mp4" type="video/mp4" />
         <source src="/images/backgrounds/hero1.webm" type="video/webm" />
-        {/* Fallback to image if video doesn't load */}
       </video>
-      
-      {/* Fallback image */}
-      <div
-        className={`absolute inset-0 bg-cover bg-center transition-opacity duration-[3000ms] ease-in-out ${
-          isLoaded ? 'opacity-50' : 'opacity-0'
-        }`}
-        style={{
-          backgroundImage: "url('/images/backgrounds/hero.jpg')",
-          zIndex: -1
-        }}
-      ></div>
       
       <div className="absolute inset-0 bg-black opacity-60"></div>
       
