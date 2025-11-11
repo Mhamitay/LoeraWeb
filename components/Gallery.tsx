@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 const galleryImages = [
-  'https://picsum.photos/seed/lorea-gallery1/1920/1080', // Gold reflections
-  'https://picsum.photos/seed/lorea-gallery2/1920/1080', // Golden light
-  'https://picsum.photos/seed/lorea-gallery3/1920/1080', // Molten gold texture
-  'https://picsum.photos/seed/lorea-gallery4/1920/1080', // Jewelry detail
+  '/images/gallery/gallery1.jpg', // Gold reflections
+  '/images/gallery/gallery2.jpg', // Golden light
+  '/images/gallery/gallery3.jpg', // Molten gold texture
+  '/images/gallery/gallery4.jpg', // Jewelry detail
 ];
 
 const Gallery: React.FC = () => {

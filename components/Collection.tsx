@@ -3,10 +3,10 @@ import React from 'react';
 import { useScrollTrigger } from '../hooks/useScrollTrigger';
 
 const collectionItems = [
-  { name: 'Elysian Ring', image: 'https://picsum.photos/seed/lorea-ring/600/800' },
-  { name: 'Solstice Necklace', image: 'https://picsum.photos/seed/lorea-necklace/600/800' },
-  { name: 'Aura Bracelet', image: 'https://picsum.photos/seed/lorea-bracelet/600/800' },
-  { name: 'Celeste Earrings', image: 'https://picsum.photos/seed/lorea-earrings/600/800' },
+  { name: 'Elysian Ring', image: '/images/collection/ring.jpg' },
+  { name: 'Solstice Necklace', image: '/images/collection/necklace.jpg' },
+  { name: 'Aura Bracelet', image: '/images/collection/bracelet.jpg' },
+  { name: 'Celeste Earrings', image: '/images/collection/earrings.jpg' },
 ];
 
 const Collection: React.FC = () => {
