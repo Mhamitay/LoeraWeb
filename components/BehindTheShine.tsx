@@ -15,7 +15,7 @@ const BehindTheShine: React.FC = () => {
         >
           <h2 className="font-serif text-5xl md:text-7xl gold-text mb-6">Behind the Shine</h2>
           <p className="text-lg text-white/80 leading-relaxed">
-            Every Loréa creation is the culmination of meticulous design and masterful execution. Our artisans pour their soul into shaping molten gold, transforming raw material into a wearable work of art that captures light and hearts alike.
+            Every Loréa creation is meticulously crafted with passion and precision. Our artisans blend modern techniques with timeless artistry, creating gold-plated jewelry that captures light and turns heads. Wear your confidence, express your elegance.
           </p>
         </div>
         <div className="h-[60vh] md:h-screen relative overflow-hidden">

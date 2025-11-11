@@ -10,7 +10,7 @@ const Craftsmanship: React.FC = () => {
       <div className="absolute inset-0 bg-black/60"></div>
       <div className="relative z-10 px-4">
         <h3 className="font-serif text-4xl md:text-6xl text-white/90 max-w-4xl leading-snug">
-          “Perfection begins with patience.”
+          "You don't need gold to shine—gold needs you."
         </h3>
       </div>
     </section>

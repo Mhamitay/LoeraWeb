@@ -18,7 +18,7 @@ const Gallery: React.FC = () => {
           ref={ref}
           className={`text-center mb-16 transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
         >
-          <h2 className="font-serif text-5xl md:text-7xl gold-text mb-4">A Glimpse of Gold</h2>
+          <h2 className="font-serif text-5xl md:text-7xl gold-text mb-4">Wear Your Radiance</h2>
           <div className="w-24 h-px gold-bg mx-auto"></div>
         </div>
 

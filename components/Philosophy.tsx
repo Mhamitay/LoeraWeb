@@ -17,7 +17,7 @@ const Philosophy: React.FC = () => {
       >
         <h2 className="font-serif text-5xl md:text-7xl gold-text mb-8">Our Philosophy</h2>
         <p className="max-w-3xl mx-auto text-lg md:text-xl text-white/90 leading-relaxed">
-          At Loréa, we believe in creating more than just jewelry. We craft heirlooms that embody timeless beauty, ethical sourcing, and unparalleled craftsmanship. Each piece is a testament to the enduring allure of pure gold.
+          At Loréa, we believe beauty is not given—it's worn with confidence. Our exquisite gold-plated jewelry combines timeless elegance with modern craftsmanship, designed to complement your unique radiance. Each piece is more than an accessory; it's a statement of who you are.
         </p>
       </div>
     </section>

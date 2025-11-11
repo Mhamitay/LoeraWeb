@@ -3,9 +3,9 @@ import React from 'react';
 import { useScrollTrigger } from '../hooks/useScrollTrigger';
 
 const testimonials = [
-  { quote: "An absolute masterpiece. The craftsmanship is beyond compare.", author: "Vogue" },
-  { quote: "Loréa is redefining modern luxury with its timeless designs.", author: "Harper's Bazaar" },
-  { quote: "Wearing a Loréa piece feels like wearing a piece of starlight.", author: "A. Wilson, Collector" },
+  { quote: "Loréa jewelry makes me feel like the best version of myself.", author: "Sarah M." },
+  { quote: "Elegant, affordable, and absolutely stunning. I never take mine off.", author: "Emma K." },
+  { quote: "Finally, gold-plated pieces that look and feel luxurious.", author: "Jessica R." },
 ];
 
 const Testimonials: React.FC = () => {

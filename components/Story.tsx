@@ -25,7 +25,7 @@ const Story: React.FC = () => {
         }`}
       >
         <h2 className="font-serif text-4xl md:text-6xl max-w-2xl mx-auto leading-tight">
-          Crafted in gold, shaped by passion.
+          Elegance crafted, confidence worn.
         </h2>
       </div>
     </section>
