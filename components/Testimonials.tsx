@@ -1,0 +1,40 @@
+
+import React from 'react';
+import { useScrollTrigger } from '../hooks/useScrollTrigger';
+
+const testimonials = [
+  { quote: "An absolute masterpiece. The craftsmanship is beyond compare.", author: "Vogue" },
+  { quote: "Loréa is redefining modern luxury with its timeless designs.", author: "Harper's Bazaar" },
+  { quote: "Wearing a Loréa piece feels like wearing a piece of starlight.", author: "A. Wilson, Collector" },
+];
+
+const Testimonials: React.FC = () => {
+    const [ref, isVisible] = useScrollTrigger<HTMLDivElement>({ threshold: 0.1 });
+
+  return (
+    <section 
+      className="w-full py-20 lg:py-40 relative bg-cover bg-center bg-fixed"
+      style={{ backgroundImage: "url('https://picsum.photos/seed/lorea-bokeh/1920/1080')" }} // Soft blurred gold bokeh
+    >
+      <div className="absolute inset-0 bg-black/80"></div>
+      <div ref={ref} className="relative z-10 container mx-auto px-4 text-center">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {testimonials.map((testimonial, index) => (
+            <div
+              key={index}
+              className={`border gold-border/50 p-8 bg-black/30 backdrop-blur-sm transition-all duration-700 ease-in-out ${
+                  isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+              }`}
+              style={{ transitionDelay: `${index * 200}ms` }}
+            >
+              <p className="text-lg italic text-white/90 mb-6">"{testimonial.quote}"</p>
+              <span className="font-serif text-xl gold-text tracking-widest uppercase">{testimonial.author}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Testimonials;
