@@ -20,8 +20,8 @@ const Hero: React.FC = () => {
           isLoaded ? 'opacity-50' : 'opacity-0'
         }`}
       >
-        <source src="/images/backgrounds/hero1.mp4" type="video/mp4" />
-        <source src="/images/backgrounds/hero1.webm" type="video/webm" />
+        <source src="/images/backgrounds/hero2.mp4" type="video/mp4" />
+        <source src="/images/backgrounds/hero2.webm" type="video/webm" />
       </video>
       
       <div className="absolute inset-0 bg-black opacity-60"></div>
