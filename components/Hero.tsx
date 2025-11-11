@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
           LORÉA
         </h1>
         <p className="mt-4 text-lg md:text-xl tracking-wider text-white/80">
-          You Make Gold Beautiful.
+          The Essence of Gold
         </p>
       </div>
     </section>
